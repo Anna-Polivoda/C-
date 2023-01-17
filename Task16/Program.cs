@@ -11,9 +11,10 @@ int num1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
 int num2 = Convert.ToInt32(Console.ReadLine());
 
+bool res = Multiplicity(num1, num2);
+Console.WriteLine(res ? "Да" : "Нет");
+
 bool Multiplicity(int number1, int number2)
 {
-    return { number1*number1 == number2 || number2*number2 == number1};
+    return number1 * number1 == number2 || number2 * number2 == number1;
 }
-bool res = Multiplicity(num)
-Console.WriteLine (res ?"Да"; "Нет");
