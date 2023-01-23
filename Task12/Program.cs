@@ -18,4 +18,5 @@ int Multiplicity(int arg1, int arg2)
         Console.WriteLine($"кратно");
     else
         Console.WriteLine($"некратно, остаток {arg1 % arg2}");
+    return 0;
 }
