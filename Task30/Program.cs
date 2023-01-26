@@ -9,9 +9,10 @@ PrintArray(arr);
 int[] CreateArray(int size)
 {
     int[] array = new int[size];
+    Random rnd = new Random();
     for (int i = 0; i < size; i++)
     {
-        array[i] = new Random().Next(0, 2);
+        array[i] = rnd.Next(0, 2);
     }
     return array;
 }
