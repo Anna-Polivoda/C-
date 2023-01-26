@@ -6,7 +6,7 @@
 Console.Clear();
 Console.WriteLine("Введите целое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-//if(int.TryParse(Console.ReadLine(), out number));
+// if(int.TryParse(Console.ReadLine(), out number));
 // else Console.WriteLine ("Введено некорректное значение. Введите целое число");
 
 int countNumber = CountNumber(number);
@@ -14,10 +14,10 @@ Console.WriteLine($"{number} -> {countNumber}");
 
 int CountNumber(int num)
 {
-    num = Math.Abs(num);
+    //num = Math.Abs(num);
     //if (num < 0) num = num * -1;
     int count = 0;
-    while (num > 0)
+    while ((int) Math.Abs(num) > 0)
     {
         num = num / 10;
         count++;
