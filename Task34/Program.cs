@@ -2,9 +2,9 @@
 // Напишите программу, которая покажет количество чётных чисел в массиве.
 // [345, 897, 568, 234] -> 2
 
-int[] array = CreateArrayRndInt(4, 100, 999);
+int[] array = CreateArrayRndInt(4,100,999);
 PrintArray(array);
-int evenNumber = EvenNumber(array);
+int evenNumber = EvenNumber(array); 
 Console.WriteLine();
 Console.WriteLine($"Количество четных чисел: {evenNumber}");
 
@@ -14,7 +14,7 @@ int[] CreateArrayRndInt(int size, int min, int max)
     Random rnd = new Random();
     for (int i = 0; i < arr.Length; i++)
     {
-        arr[i] = rnd.Next(min, max + 1);
+        arr[i] = rnd.Next(min,max+1);
     }
     return arr;
 }

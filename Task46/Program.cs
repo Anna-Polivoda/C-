@@ -37,5 +37,5 @@ void PrintMatrix(int[,] matrix)
     }
 }
 
-int[,] array2D = CreateMatrixRndInt(5, 4, -100, 100);
+int[,] array2D = CreateMatrixRndInt(3, 4, -100, 100);
 PrintMatrix(array2D);
