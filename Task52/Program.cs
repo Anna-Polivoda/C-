@@ -47,6 +47,6 @@ void PrintArrayAverage(int[,] matrix)
         {
             sum = sum + matrix[i, j];
         }
-        Console.Write($"{Math.Round(sum / matrix.GetLength(0), 1)} ");
+        Console.Write($"{Math.Round(sum / matrix.GetLength(0), 1)}  ");
     }
 }

@@ -13,6 +13,7 @@ int[,] createMatrixRndInt = CreateMatrixRndInt(5, 4, 0, 10);
 PrintMatrix(createMatrixRndInt);
 Console.WriteLine();
 int[,] newMatrix = NewMatrix(createMatrixRndInt);
+Console.WriteLine("Упорядоченный массив: ");
 PrintMatrix(newMatrix);
 
 

@@ -20,5 +20,5 @@ Console.WriteLine($"Сумма чисел равна {sumnumbers}");
 int SumNumbers(int number)
 {
 if (number == 0) return 0;
-else return number%10 + SumNumbers(number/10);
+return number%10 + SumNumbers(number/10);
 }

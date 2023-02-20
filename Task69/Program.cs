@@ -15,5 +15,5 @@ Console.WriteLine($"{num1} в степени {num2} равно {power}");
 int PowerNumbers(int number1, int number2)
 {
 if (number2 == 0) return 1;
-else return number1 * PowerNumbers(number1, number2 - 1);
+return number1 * PowerNumbers(number1, number2 - 1);
 }
